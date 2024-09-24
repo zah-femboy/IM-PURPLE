@@ -5,7 +5,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['zirec'] 		= { 7, httpService:JSONDecode('{"FontColor":"5E5E5E","MainColor":"151515","AccentColor":"#5003b5","BackgroundColor":"0F0F0F","OutlineColor":"191919"}') },
+		['zirec'] 		= { 7, httpService:JSONDecode('{"FontColor":"BFBFBF","MainColor":"0F0F0F","AccentColor":"##7f6eea","BackgroundColor":"101010","OutlineColor":"0B0B0B"}') },
 	}
 
 	function ThemeManager:ApplyTheme(theme)
